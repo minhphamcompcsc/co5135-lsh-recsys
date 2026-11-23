@@ -43,11 +43,11 @@ Train/test split: 80/20 (seed 42).
 
 | Notebook | Content |
 |---|---|
-| `00_prepare_data` | Download data, CSV to Parquet, create subsets, train/test split |
-| `01_eda` | Rating distribution, long-tail analysis |
-| `02_als_bf_lsh` | ALS, brute-force kNN, LSH on the 1M subset |
-| `03_scalability` | Brute-force vs LSH runtime from 1M to 25M |
-| `04_seminar_demo` | MinHash, SimHash, banding S-curve demo |
+| `00-prepare-data.ipynb` | Download data, CSV to Parquet, create subsets, train/test split |
+| `01-eda.ipynb` | Rating distribution, long-tail analysis |
+| `02-als-bf-lsh.ipynb` | ALS, brute-force kNN, LSH (Spark BRP and SimHash banding) on the 1M subset |
+| `03-scalability.ipynb` | Brute-force vs LSH runtime from 1M to 25M |
+| `04-seminar-demo.ipynb` | MinHash, SimHash, banding S-curve demo |
 
 ## How to run
 
