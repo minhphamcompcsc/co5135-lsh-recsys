@@ -1,0 +1,30 @@
+{
+  "minhash": {
+    "users": 6580,
+    "K": 100,
+    "mean_abs_err": 0.0284
+  },
+  "banding": [
+    {
+      "r": 5,
+      "b": 20,
+      "t": 0.549,
+      "cand_pct_of_all_pairs": 0.0287,
+      "pairs_above_t": 180,
+      "recall_above_t": 0.7333
+    },
+    {
+      "r": 3,
+      "b": 33,
+      "t": 0.312,
+      "cand_pct_of_all_pairs": 1.0759,
+      "pairs_above_t": 20421,
+      "recall_above_t": 0.8182
+    }
+  ],
+  "hyperplanes_mean_abs_err": 0.0195,
+  "euclidean": {
+    "p_at_half_a": 0.671,
+    "p_at_2a": 0.165
+  }
+}
