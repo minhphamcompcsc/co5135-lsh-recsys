@@ -1,0 +1,15 @@
+metric,value
+ratings,25000095
+users,162541
+movies_with_ratings,59047
+mean_rating,3.534
+most_common_rating,4.0
+ratings_per_user_min,20
+ratings_per_user_median,71.0
+ratings_per_user_max,32202
+ratings_per_movie_median,6.0
+ratings_per_movie_max,81491
+top1pct_movies_share_pct,47.6
+top10pct_movies_share_pct,94.0
+top20pct_movies_share_pct,98.3
+movies_lt10_ratings_pct,58.8
