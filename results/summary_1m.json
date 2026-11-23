@@ -1,0 +1,38 @@
+{
+  "subset": "1m",
+  "min_ratings": 20,
+  "als": {
+    "rank": 40,
+    "regParam": 0.1,
+    "maxIter": 10,
+    "test_rmse": 0.8237,
+    "fit_s": 18.7
+  },
+  "movies_in_train": 18662,
+  "movies_used": 4885,
+  "pairs": 23858340,
+  "numpy_exact_s": 0.34,
+  "spark_bf_s": 82.7,
+  "spark_bf_recall": 1.0,
+  "best_brp": {
+    "config": "b=0.05, L=10",
+    "cand_pct": 82.01,
+    "time_s": 511.1,
+    "speedup_vs_bf": 0.16,
+    "recall": 0.9404,
+    "precision": 0.0834
+  },
+  "best_simhash": {
+    "config": "r=12, B=20",
+    "cand_pct": 52.36,
+    "time_s": 50.6,
+    "speedup_vs_bf": 1.63,
+    "recall": 0.9384,
+    "precision": 0.0834
+  },
+  "precision@10": {
+    "popularity": 0.12,
+    "item_based_bf": 0.0837
+  },
+  "users_evaluated": 6404
+}
